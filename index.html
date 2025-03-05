@@ -1,84 +1,107 @@
-
 <!DOCTYPE html>
-<html>
-
-
-
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Ebay Customer Service</title>
-  <style>
-    body {
-      font-family: "SF Pro Text", -Ebay-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      text-align: center;
-      padding: 20px;
-      background-color: #f5f5f7;
-    }
-
-    h1 {
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 30px;
-    }
-
-    .call-button {
-      display: inline-block;
-      background-color: #0000FF;
-      color: #fff;
-      padding: 15px 30px;
-      font-size: 24px;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-      margin-bottom: 20px;
-    }
-
-    .call-button:hover {
-      background-color: #b71b36;
-    }
-
-    .Ebay-logo {
-      width: 150px;
-      height: 150px;
-      margin-bottom: 30px;
-    }
-
-    .footer {
-      font-size: 14px;
-      color: #888;
-      margin-top: 50px;
-    }
-  </style>
-  <script>
-    function autoDial() {
-      var phoneNumber = "+1-(833)-587-9060";
-      window.location.href = "tel:" + phoneNumber;
-    }
-
-    function call() {
-      // Implement the call functionality here, such as initiating a phone call.
-      console.log("Calling...");
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Garden Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .service-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: white;
+        }
+        .service-box {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+        }
+        .service-box h3 {
+            color: #4CAF50;
+        }
+        .service-box p {
+            color: #555;
+        }
+        .contact-section {
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
+<body>
 
-<body onload="autoDial()">
+    <header>
+        <h1>Welcome to GreenThumb Garden Services</h1>
+        <p>Your garden, our passion</p>
+    </header>
 
-  
-  <img src="ebaylogo.png" alt="Ebay Logo" class="Ebay-logo">
-  <h1>Ebay Customer Service</h1>
-  <p>For any assistance or inquiries related to Ebay products or services, our dedicated customer service team is here to help you. Whether you need technical support, have questions about your Ebay device, require assistance with your Ebay account, or need guidance with Ebay services, our experts are just a phone call away. Experience exceptional support from Ebay.</p>
-  <a href="tel:+1-(833)-587-9060" class="call-button">Contact Ebay Support</a>
-  <p class="footer">© 2023 Ebay Inc. All rights reserved.</p>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="services" class="service-section">
+        <div class="service-box">
+            <h3>Lawn Care</h3>
+            <p>We provide professional lawn mowing, fertilization, and maintenance to keep your garden looking fresh.</p>
+        </div>
+        <div class="service-box">
+            <h3>Landscape Design</h3>
+            <p>Our experts will help design the perfect outdoor space that suits your style and needs.</p>
+        </div>
+        <div class="service-box">
+            <h3>Tree & Shrub Care</h3>
+            <p>We offer trimming, pruning, and tree health services to keep your plants healthy and beautiful.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p>Call us at (123) 456-7890 or email us at info@greenthumb.com for a free consultation!</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 GreenThumb Garden Services | All Rights Reserved</p>
+    </footer>
 
 </body>
-
-
-
 </html>
