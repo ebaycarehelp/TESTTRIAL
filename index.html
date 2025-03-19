@@ -46,4 +46,88 @@
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
-    
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Green Thumb Garden Services</h1>
+        <p>Your one-stop solution for all your gardening needs</p>
+    </header>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Lawn Care</h3>
+                <p>We offer regular lawn mowing and maintenance to keep your yard looking neat and healthy.</p>
+            </div>
+            <div class="service">
+                <h3>Garden Landscaping</h3>
+                <p>Our landscaping services include garden design, plant placement, and hardscaping.</p>
+            </div>
+            <div class="service">
+                <h3>Tree Trimming</h3>
+                <p>Professional tree trimming services to maintain the health and shape of your trees.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Our Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x200" alt="Garden 1">
+                <p>Beautiful garden layout</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x200" alt="Garden 2">
+                <p>Lush lawn care</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x200" alt="Garden 3">
+                <p>Tree trimming service</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Green Thumb Garden Services | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
